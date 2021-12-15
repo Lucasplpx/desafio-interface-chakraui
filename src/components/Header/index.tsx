@@ -8,7 +8,7 @@ export function Header() {
       maxWidth={1440}
       h='20'
       mx='auto'
-      mt='4'
+      my='2'
       align='center'
       px='6'
     >
