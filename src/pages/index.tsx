@@ -4,6 +4,7 @@ import { ListTravel } from '../components/ListTravel';
 import { Frase } from '../components/Frase';
 
 import { Container, Divider, Flex } from '@chakra-ui/react';
+import { SlideContinents } from '../components/SlideContinents';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Divider w='90px' color='gray.300' border='2px' />
       </Flex>
       <Frase />
+      <SlideContinents />
     </Container>
   );
 }

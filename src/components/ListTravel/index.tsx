@@ -1,4 +1,4 @@
-import { Box, Center, Flex, Image, Text } from '@chakra-ui/react';
+import { Center, Flex, Image, Text } from '@chakra-ui/react';
 
 export function ListTravel() {
   return (
