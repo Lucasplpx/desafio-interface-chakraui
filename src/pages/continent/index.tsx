@@ -1,5 +1,6 @@
 import { Container } from '@chakra-ui/react';
 import { ContinentBanner } from '../../components/ContinentBanner';
+import { ContinentInfo } from '../../components/ContinentInfo';
 import { Header } from '../../components/Header';
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <Container maxW={1440}>
       <Header />
       <ContinentBanner />
+      <ContinentInfo />
     </Container>
   );
 }

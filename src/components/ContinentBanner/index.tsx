@@ -10,7 +10,7 @@ export function ContinentBanner() {
         backgroundRepeat='no-repeat'
       >
         <Flex align='end' h={400} pl='11rem'>
-          <Text color='gray.200' fontSize='4xl'>
+          <Text color='gray.200' fontSize='4xl' fontWeight={500}>
             Europa
           </Text>
         </Flex>
