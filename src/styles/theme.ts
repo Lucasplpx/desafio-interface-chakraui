@@ -4,11 +4,14 @@ export const theme = extendTheme({
   colors: {
     gray: {
       '300': '#47585B',
+      '250': '#999999',
       '200': '#DADADA',
       '50': '#F5F8FA',
     },
     yellow: {
       '450': '#FFBA08',
+      '100': '#ffdd84',
+      '50': '#ffeab1',
     },
   },
   fonts: {
