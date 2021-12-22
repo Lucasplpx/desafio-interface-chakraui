@@ -27,10 +27,21 @@ export function CardCity({
         borderColor='yellow.100'
       >
         <Flex flexDir='column' h='100%' justify='space-evenly'>
-          <Text fontWeight={600} fontSize='20px' lineHeight='25px'>
+          <Text
+            fontFamily='Barlow'
+            fontWeight={600}
+            fontSize='20px'
+            lineHeight='25px'
+          >
             {city}
           </Text>
-          <Text color='gray.250' fontSize='16px' lineHeight='25px'>
+          <Text
+            fontFamily='Barlow'
+            fontWeight={600}
+            color='gray.250'
+            fontSize='16px'
+            lineHeight='25px'
+          >
             {country}
           </Text>
         </Flex>

@@ -23,6 +23,8 @@ export const theme = extendTheme({
       body: {
         bg: 'gray.50',
         color: 'gray.300',
+        '--swiper-navigation-color': '#FFBA08',
+        '--swiper-pagination-color': '#FFBA08',
       },
     },
   },

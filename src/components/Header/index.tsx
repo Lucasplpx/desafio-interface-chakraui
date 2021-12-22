@@ -1,6 +1,11 @@
-import { Flex, Image } from '@chakra-ui/react';
+import { Box, Flex, Image } from '@chakra-ui/react';
+import { ButtonBack } from '../ButtonBack';
 
-export function Header() {
+type HeaderProps = {
+  isBtnBack?: boolean;
+};
+
+export function Header({ isBtnBack = false }: HeaderProps) {
   return (
     <Flex
       as='header'
@@ -12,8 +17,10 @@ export function Header() {
       align='center'
       px='6'
     >
-      <Flex w='100%' justify='center'>
+      <Flex w='100%' justify='space-around' align='center'>
+        {isBtnBack && <ButtonBack />}
         <Image objectFit='cover' src='./img/logo.png' alt='logo' />
+        {isBtnBack && <Box />}
       </Flex>
     </Flex>
   );

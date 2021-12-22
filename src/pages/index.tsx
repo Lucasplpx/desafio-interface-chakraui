@@ -14,7 +14,7 @@ export default function Home() {
 
       <ListTravel />
       <Flex justify='center' mt={24}>
-        <Divider w='90px' color='gray.300' border='2px' />
+        <Divider w='90px' color='gray.300' border='2px' opacity={1} />
       </Flex>
       <Frase />
       <SlideContinents />

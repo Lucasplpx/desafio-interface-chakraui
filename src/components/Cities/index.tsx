@@ -4,7 +4,9 @@ import { CardCity } from './Card';
 export function Cities() {
   return (
     <Flex flexDir='column' maxWidth={1160} h={700} mx='auto' mt='4rem'>
-      <Text fontSize='2rem'>Cidades +100</Text>
+      <Text fontSize='2rem' fontWeight={500}>
+        Cidades +100
+      </Text>
 
       <Grid templateColumns='repeat(4, 1fr)' gap={8} mt='2rem'>
         <GridItem>

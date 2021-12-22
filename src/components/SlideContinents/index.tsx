@@ -38,10 +38,15 @@ export function SlideContinents() {
               justify='center'
               align='center'
             >
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text
+                fontSize='3rem'
+                fontWeight={700}
+                lineHeight='72px'
+                color='gray.200'
+              >
                 Europa
               </Text>
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -61,10 +66,15 @@ export function SlideContinents() {
               justify='center'
               align='center'
             >
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text
+                fontSize='3rem'
+                fontWeight={700}
+                lineHeight='72px'
+                color='gray.200'
+              >
                 América do Norte
               </Text>
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -84,10 +94,15 @@ export function SlideContinents() {
               justify='center'
               align='center'
             >
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text
+                fontSize='3rem'
+                fontWeight={700}
+                lineHeight='72px'
+                color='gray.200'
+              >
                 América do Sul
               </Text>
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -107,10 +122,15 @@ export function SlideContinents() {
               justify='center'
               align='center'
             >
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text
+                fontSize='3rem'
+                fontWeight={700}
+                lineHeight='72px'
+                color='gray.200'
+              >
                 Ásia
               </Text>
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -130,10 +150,15 @@ export function SlideContinents() {
               justify='center'
               align='center'
             >
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text
+                fontSize='3rem'
+                fontWeight={700}
+                lineHeight='72px'
+                color='gray.200'
+              >
                 África
               </Text>
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -153,10 +178,15 @@ export function SlideContinents() {
               justify='center'
               align='center'
             >
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text
+                fontSize='3rem'
+                fontWeight={700}
+                lineHeight='72px'
+                color='gray.200'
+              >
                 Oceania
               </Text>
-              <Text fontSize='1.5rem' color='gray.200'>
+              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
                 O continente mais antigo.
               </Text>
             </Flex>
