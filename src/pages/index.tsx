@@ -8,7 +8,7 @@ import { SlideContinents } from '../components/SlideContinents';
 
 export default function Home() {
   return (
-    <Container maxW={1440}>
+    <Container maxW={1440} padding={0}>
       <Header />
       <Banner />
 

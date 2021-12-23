@@ -19,7 +19,12 @@ export function Header({ isBtnBack = false }: HeaderProps) {
     >
       <Flex w='100%' justify='space-around' align='center'>
         {isBtnBack && <ButtonBack />}
-        <Image objectFit='cover' src='./img/logo.png' alt='logo' />
+        <Image
+          objectFit='cover'
+          h={{ base: '40px', lg: '100%' }}
+          src='./img/logo.png'
+          alt='logo'
+        />
         {isBtnBack && <Box />}
       </Flex>
     </Flex>
