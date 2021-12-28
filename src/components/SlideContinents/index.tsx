@@ -11,7 +11,14 @@ SwiperCore.use([Keyboard, Pagination, Navigation]);
 
 export function SlideContinents() {
   return (
-    <Flex h={450} as='section' w='100%' maxWidth={1240} mx='auto' my={10}>
+    <Flex
+      h={{ base: 250, lg: 450 }}
+      as='section'
+      w='100%'
+      maxWidth={1240}
+      mx='auto'
+      my={{ base: 5, lg: 10 }}
+    >
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -39,14 +46,18 @@ export function SlideContinents() {
               align='center'
             >
               <Text
-                fontSize='3rem'
+                fontSize={{ base: '24px', lg: '3rem' }}
                 fontWeight={700}
                 lineHeight='72px'
                 color='gray.200'
               >
                 Europa
               </Text>
-              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
+              <Text
+                fontSize={{ base: '14px', lg: '1.5rem' }}
+                fontWeight={700}
+                color='gray.200'
+              >
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -67,14 +78,18 @@ export function SlideContinents() {
               align='center'
             >
               <Text
-                fontSize='3rem'
+                fontSize={{ base: '24px', lg: '3rem' }}
                 fontWeight={700}
                 lineHeight='72px'
                 color='gray.200'
               >
                 América do Norte
               </Text>
-              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
+              <Text
+                fontSize={{ base: '14px', lg: '1.5rem' }}
+                fontWeight={700}
+                color='gray.200'
+              >
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -95,14 +110,18 @@ export function SlideContinents() {
               align='center'
             >
               <Text
-                fontSize='3rem'
+                fontSize={{ base: '24px', lg: '3rem' }}
                 fontWeight={700}
                 lineHeight='72px'
                 color='gray.200'
               >
                 América do Sul
               </Text>
-              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
+              <Text
+                fontSize={{ base: '14px', lg: '1.5rem' }}
+                fontWeight={700}
+                color='gray.200'
+              >
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -123,14 +142,18 @@ export function SlideContinents() {
               align='center'
             >
               <Text
-                fontSize='3rem'
+                fontSize={{ base: '24px', lg: '3rem' }}
                 fontWeight={700}
                 lineHeight='72px'
                 color='gray.200'
               >
                 Ásia
               </Text>
-              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
+              <Text
+                fontSize={{ base: '14px', lg: '1.5rem' }}
+                fontWeight={700}
+                color='gray.200'
+              >
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -151,14 +174,18 @@ export function SlideContinents() {
               align='center'
             >
               <Text
-                fontSize='3rem'
+                fontSize={{ base: '24px', lg: '3rem' }}
                 fontWeight={700}
                 lineHeight='72px'
                 color='gray.200'
               >
                 África
               </Text>
-              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
+              <Text
+                fontSize={{ base: '14px', lg: '1.5rem' }}
+                fontWeight={700}
+                color='gray.200'
+              >
                 O continente mais antigo.
               </Text>
             </Flex>
@@ -179,14 +206,18 @@ export function SlideContinents() {
               align='center'
             >
               <Text
-                fontSize='3rem'
+                fontSize={{ base: '24px', lg: '3rem' }}
                 fontWeight={700}
                 lineHeight='72px'
                 color='gray.200'
               >
                 Oceania
               </Text>
-              <Text fontSize='1.5rem' fontWeight={700} color='gray.200'>
+              <Text
+                fontSize={{ base: '14px', lg: '1.5rem' }}
+                fontWeight={700}
+                color='gray.200'
+              >
                 O continente mais antigo.
               </Text>
             </Flex>

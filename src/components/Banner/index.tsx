@@ -42,14 +42,21 @@ export function Banner() {
               5 Continentes, <Text>infinitas possibilidades.</Text>
             </Text>
 
-            <Text color='gray.200' fontSize={{ base: '14px', lg: 'initial' }}>
+            <Text
+              color='gray.200'
+              fontSize={{ base: '14px', lg: 'inherit' }}
+              maxHeight={{ base: 58, lg: 108 }}
+              maxWidth={{ base: '100%', lg: '426px' }}
+            >
               Chegou a hora de tirar do papel a viagem que{' '}
               {isWideVersion ? (
                 <>
-                  você <Text>sempre sonhou.</Text>
+                  <Text as='span' display='block'>
+                    você sempre sonhou.
+                  </Text>
                 </>
               ) : (
-                <Text>você sempre sonhou.</Text>
+                <Text as='span'>você sempre sonhou.</Text>
               )}
             </Text>
           </Flex>

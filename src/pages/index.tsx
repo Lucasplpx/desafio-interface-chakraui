@@ -13,7 +13,7 @@ export default function Home() {
       <Banner />
 
       <ListTravel />
-      <Flex justify='center' mt={24}>
+      <Flex justify='center' mt={{ base: 5, lg: 24 }}>
         <Divider w='90px' color='gray.300' border='2px' opacity={1} />
       </Flex>
       <Frase />
