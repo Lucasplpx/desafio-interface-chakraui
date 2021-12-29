@@ -39,25 +39,16 @@ export function Banner() {
               fontWeight={500}
               color='gray.50'
             >
-              5 Continentes, <Text>infinitas possibilidades.</Text>
+              5 Continentes, <Text as='span'>infinitas possibilidades.</Text>
             </Text>
 
             <Text
+              maxHeight={{ base: 58, lg: 108 }}
+              maxWidth={{ base: '100%', lg: '417px' }}
               color='gray.200'
               fontSize={{ base: '14px', lg: 'inherit' }}
-              maxHeight={{ base: 58, lg: 108 }}
-              maxWidth={{ base: '100%', lg: '426px' }}
             >
-              Chegou a hora de tirar do papel a viagem que{' '}
-              {isWideVersion ? (
-                <>
-                  <Text as='span' display='block'>
-                    você sempre sonhou.
-                  </Text>
-                </>
-              ) : (
-                <Text as='span'>você sempre sonhou.</Text>
-              )}
+              Chegou a hora de tirar do papel a viagem que você sempre sonhou.
             </Text>
           </Flex>
           {isWideVersion && (
