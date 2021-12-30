@@ -9,6 +9,7 @@ export function Cities() {
       h={700}
       mx='auto'
       mt={['2rem', '4rem']}
+      px={4}
     >
       <Text fontSize='2rem' fontWeight={500}>
         Cidades +100

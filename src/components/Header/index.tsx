@@ -17,7 +17,11 @@ export function Header({ isBtnBack = false }: HeaderProps) {
       align='center'
       px='6'
     >
-      <Flex w='100%' justify='space-around' align='center'>
+      <Flex
+        w='100%'
+        justify={[isBtnBack ? 'space-between' : 'center', 'space-around']}
+        align='center'
+      >
         {isBtnBack && <ButtonBack />}
         <Image
           objectFit='cover'

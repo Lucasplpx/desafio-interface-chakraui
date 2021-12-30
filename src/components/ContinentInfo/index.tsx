@@ -1,11 +1,20 @@
-import { Box, Flex, Grid, GridItem, Text } from '@chakra-ui/react';
+import {
+  Box,
+  Flex,
+  Grid,
+  GridItem,
+  Image,
+  Text,
+  Tooltip,
+} from '@chakra-ui/react';
 
 export function ContinentInfo() {
   return (
     <Grid
+      px={4}
       templateColumns={{ base: 'repeat(1, 1fr)', lg: 'repeat(2, 1fr)' }}
       gap={2}
-      mt='4rem'
+      mt={['1.5rem', '4rem']}
     >
       <GridItem>
         <Text
@@ -53,8 +62,26 @@ export function ContinentInfo() {
             >
               27
             </Text>
-            <Text fontSize={['18px', '1.5rem']} fontWeight={[400, 600]}>
-              cidades +100
+            <Text
+              display='flex'
+              alignItems='center'
+              fontSize={['18px', '1.5rem']}
+              fontWeight={[400, 600]}
+            >
+              cidades +100{' '}
+              <Tooltip
+                label='Atenção informação cidade'
+                aria-label='Info cidade'
+              >
+                <Image
+                  display='inline'
+                  w={['13px', '16px']}
+                  h={['13px', '16px']}
+                  ml={'10px'}
+                  src='./img/info.png'
+                  alt='info'
+                />
+              </Tooltip>
             </Text>
           </Box>
         </Flex>

@@ -6,10 +6,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Box, Flex, Text } from '@chakra-ui/react';
 
+import { useRouter } from 'next/router';
+
 import SwiperCore, { Keyboard, Pagination, Navigation } from 'swiper';
 SwiperCore.use([Keyboard, Pagination, Navigation]);
 
 export function SlideContinents() {
+  const { push } = useRouter();
+
+  function handlePageContinent() {
+    push('continent');
+  }
+
   return (
     <Flex
       h={{ base: 250, lg: 450 }}
@@ -31,7 +39,7 @@ export function SlideContinents() {
         navigation={true}
         className='mySwiper'
       >
-        <SwiperSlide>
+        <SwiperSlide onClick={handlePageContinent}>
           <Box
             w='100%'
             h='100%'
@@ -63,7 +71,7 @@ export function SlideContinents() {
             </Flex>
           </Box>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={handlePageContinent}>
           <Box
             w='100%'
             h='100%'
@@ -95,7 +103,7 @@ export function SlideContinents() {
             </Flex>
           </Box>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={handlePageContinent}>
           <Box
             w='100%'
             h='100%'
@@ -127,7 +135,7 @@ export function SlideContinents() {
             </Flex>
           </Box>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={handlePageContinent}>
           <Box
             w='100%'
             h='100%'
@@ -159,7 +167,7 @@ export function SlideContinents() {
             </Flex>
           </Box>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={handlePageContinent}>
           <Box
             w='100%'
             h='100%'
@@ -191,7 +199,7 @@ export function SlideContinents() {
             </Flex>
           </Box>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide onClick={handlePageContinent}>
           <Box
             w='100%'
             h='100%'

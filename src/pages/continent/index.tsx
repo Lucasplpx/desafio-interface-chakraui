@@ -6,7 +6,7 @@ import { Header } from '../../components/Header';
 
 export default function Home() {
   return (
-    <Container maxW={1440}>
+    <Container maxW={1440} p={0}>
       <Header isBtnBack />
       <ContinentBanner />
       <ContinentInfo />
